@@ -1,0 +1,735 @@
+:root {
+  --primary-color: #043044;
+  --secondary-color: #00ff85;
+  --highlight-color: #ff8c00;
+  --highlight-hover-color: #e67e22;
+  --bg-color: #187b55;
+  --font-family: Montserrat, sans-serif;
+  --white: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-family);
+  color: var(--primary-color);
+  background-color: var(--bg-color);
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow-x: hidden;
+}
+#cabecalho {
+  background-image: url("img/BANNER HORIZONTAL.svg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180vh;
+  color: var(--white);
+}
+#cabecalho .container {
+  z-index: 2;
+}
+#cabecalho h1,
+#cabecalho h3 {
+  color: var(--white);
+  transform: translateY(-33rem);
+}
+#cabecalho h3 {
+  color: var(--primary-color);
+  transform: translateY(-32rem);
+}
+.logo-header {
+  max-width: 100%;
+  height: 40%;
+  transform: translateY(-28%);
+}
+#video-vendas iframe {
+  width: 60vw;
+  height: 70vh;
+  transform: translate(0%, -70%);
+}
+.botao {
+  display: inline-block;
+  background-color: var(--highlight-color);
+  color: var(--white);
+  padding: 30px;
+  border-radius: 50px;
+  transition: background 0.3s;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 26rem;
+  text-decoration: none;
+}
+.botao:hover {
+  background-color: var(--highlight-hover-color);
+  text-decoration: none;
+}
+.map-icon {
+  width: 9%;
+}
+#como-funciona {
+  padding: 40px 90px;
+  text-align: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+#como-funciona ol {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#como-funciona li {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 30px 80px;
+  border-radius: 20px;
+  width: 80vw;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#como-funciona li::before {
+  content: attr(data-step);
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--primary-color);
+  color: var(--white);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 2px solid var(--white);
+}
+#depoimentos {
+  padding: 30px 0;
+  text-align: center;
+  background: linear-gradient(
+    to top,
+    rgba(0, 102, 64, 0.9),
+    var(--secondary-color)
+  );
+}
+#depoimentos h2 {
+  font-size: 2.2rem;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+#depoimentos .carousel-item iframe {
+  width: 100%;
+  max-width: 720px;
+  height: 400px;
+  margin: 0 auto;
+}
+#carouselExampleIndicators {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+}
+.carousel-control-prev-icon {
+  margin-left: -10px;
+}
+.carousel-control-next-icon {
+  margin-right: -10px;
+}
+.botao-funcional {
+  display: inline-block;
+  background-color: var(--highlight-color);
+  color: var(--white);
+  padding: 10px;
+  border-radius: 50px;
+  transition: background 0.3s;
+  font-size: 1.4rem;
+  transform: translateY(20%);
+  text-decoration: none;
+}
+.botao-funcional:hover {
+  background-color: var(--highlight-hover-color);
+  text-decoration: none;
+}
+#garantia {
+  background-color: var(--primary-color);
+  padding: 40px 0;
+  text-align: center;
+}
+.title-1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+.paragraph {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+#introducao-cta {
+  background-color: var(--secondary-color);
+  padding: 40px 0;
+  text-align: center;
+}
+#introducao-cta .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#introducao-cta .container p {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+.title-2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.cta-card {
+  background-color: #072b24;
+  border-radius: 50px;
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+  color: var(--white);
+  margin: 20px auto;
+}
+.cta-header {
+  margin-bottom: 20px;
+}
+.cta-logo {
+  max-width: 150px;
+  height: auto;
+}
+.cta-header h2 {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
+.cta-content h3 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  color: var(--white);
+}
+.benefits-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px;
+  text-align: left;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.benefits-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.benefits-list li::before {
+  content: "✔️";
+  color: var(--secondary-color);
+  margin-right: 14px;
+}
+.cta-pricing {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.cta-price {
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  display: block;
+}
+.cta-payment-methods img {
+  width: 70%;
+  margin-top: 20px;
+}
+.cta-button {
+  display: inline-block;
+  background-color: var(--highlight-color);
+  color: var(--white);
+  padding: 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+.cta-button:hover {
+  background-color: var(--highlight-hover-color);
+  text-decoration: none;
+}
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.botao,
+.botao-funcional,
+.cta-button {
+  animation: pulsar 1.5s infinite;
+}
+#contato-suporte {
+  background-color: #072b24;
+  padding: 28px 0;
+  text-align: center;
+  color: var(--secondary-color);
+}
+#contato-suporte h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: var(--secondary-color);
+}
+#contato-suporte p {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+.contato-card {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: left;
+}
+.contato-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  justify-content: center;
+}
+.contato-icone {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.icone-whats {
+  width: 10%;
+}
+.contato-texto a {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+#rodape {
+  background: linear-gradient(#072b24, #000);
+  color: var(--white);
+  padding: 10px 0;
+  text-align: center;
+}
+#rodape .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#rodape ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+#rodape ul li {
+  margin-bottom: 5px;
+}
+#rodape a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  #cabecalho {
+    max-height: 70vh;
+  }
+  .logo-header {
+    width: 100%;
+    transform: translateY(-5rem);
+  }
+  #cabecalho h1 {
+    font-size: 1rem;
+    transform: translatey(-11rem);
+  }
+  #cabecalho h3 {
+    font-size: 1rem;
+    transform: translateY(-11rem);
+  }
+  #video-vendas iframe {
+    max-width: 100vw;
+    max-height: 35vh;
+    position: relative;
+    bottom: 1.2rem;
+    left: 1rem;
+  }
+  .botao {
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 13.5rem;
+    padding: 2px;
+  }
+  #como-funciona h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    white-space: nowrap;
+    transform: translateX(-6rem);
+  }
+  .map-icon {
+    width: 25%;
+  }
+  #como-funciona ol li {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+  }
+  #como-funciona li {
+    height: 10vh;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-align: left;
+  }
+  #como-funciona li::before {
+    content: attr(data-step);
+    margin-left: 0.5rem;
+  }
+  #depoimentos .container h2 {
+    font-size: 1.2rem;
+  }
+  .botao-funcional {
+    margin-top: 1rem;
+  }
+  #introducao-cta .title-2 {
+    font-size: 2.2rem;
+  }
+  .cta-card {
+    background-color: #072b24;
+    border-radius: 50px;
+    padding: 15px;
+    max-width: 90%;
+    text-align: center;
+    color: var(--white);
+    margin: 15px auto;
+  }
+  .cta-header {
+    margin-bottom: 15px;
+  }
+  .cta-logo {
+    max-width: 120px;
+    height: auto;
+  }
+  .cta-header h2 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+  }
+  .cta-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: var(--white);
+  }
+  .benefits-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 15px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .benefits-list li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .benefits-list li::before {
+    content: "✔️";
+    color: var(--secondary-color);
+    margin-right: 10px;
+  }
+  .cta-pricing {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .cta-price {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    display: block;
+  }
+  .cta-payment-methods img {
+    width: 60%;
+    margin-top: 15px;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: var(--highlight-color);
+    color: var(--white);
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+  }
+  .contato-texto a {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 480px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  #cabecalho {
+    max-height: 70vh;
+  }
+  .logo-header {
+    width: 100%;
+    transform: translateY(-5rem);
+  }
+  #cabecalho h1 {
+    font-size: 1rem;
+    transform: translatey(-11rem);
+  }
+  #cabecalho h3 {
+    font-size: 1rem;
+    transform: translateY(-11rem);
+  }
+  #video-vendas iframe {
+    max-width: 100vw;
+    max-height: 30vh;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+  .botao {
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 10.3rem;
+    padding: 4px;
+  }
+  #como-funciona h2 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+    transform: translateX(-2.7rem);
+  }
+  .map-icon {
+    width: 0;
+  }
+  #como-funciona ol li {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+  }
+  #como-funciona li {
+    height: 10vh;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-align: left;
+  }
+  .cta-card {
+    background-color: #072b24;
+    border-radius: 50px;
+    padding: 15px;
+    max-width: 90%;
+    text-align: center;
+    color: var(--white);
+    margin: 15px auto;
+  }
+  .cta-header {
+    margin-bottom: 15px;
+  }
+  .cta-logo {
+    max-width: 120px;
+    height: auto;
+  }
+  .cta-header h2 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+  }
+  .cta-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: var(--white);
+  }
+  .benefits-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 15px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .benefits-list li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .benefits-list li::before {
+    content: "✔️";
+    color: var(--secondary-color);
+    margin-right: 10px;
+  }
+  .cta-pricing {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  .cta-price {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    display: block;
+  }
+  .cta-payment-methods img {
+    width: 60%;
+    margin-top: 15px;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: var(--highlight-color);
+    color: var(--white);
+    padding: 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+  }
+  .contato-texto a {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  #cabecalho {
+    width: 100vw;
+    height: 100vh;
+  }
+  #cabecalho h1,
+  #cabecalho h3 {
+    font-size: 2rem;
+    transform: translateY(-25rem);
+  }
+  .logo-header {
+    margin-top: 1rem;
+  }
+  #video-vendas iframe {
+    width: 70vw;
+    height: 50vh;
+    position: relative;
+    bottom: 3rem;
+    left: 3rem;
+  }
+  .botao {
+    position: relative;
+    bottom: 30rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1400px) {
+  #cabecalho {
+    height: 170vh;
+  }
+  .logo-header {
+    position: relative;
+    top: 1rem;
+  }
+  #cabecalho h1,
+  #cabecalho h3 {
+    font-size: 2rem;
+    transform: translateY(-24rem);
+  }
+  #video-vendas iframe {
+    width: 70vw;
+    height: 50vh;
+    position: relative;
+    bottom: 8rem;
+  }
+  .botao {
+    position: relative;
+    bottom: 19rem;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1899px) {
+  .logo-header {
+    width: 80%;
+    transform: translateY(-12rem);
+  }
+  #cabecalho {
+    height: 155vh;
+  }
+  #cabecalho h1 {
+    font-size: 3rem;
+    transform: translateY(-28rem);
+  }
+  #cabecalho h3 {
+    font-size: 2rem;
+    transform: translateY(-26rem);
+  }
+  #video-vendas iframe {
+    width: 800px;
+    height: 500px;
+    transform: translateY(-25rem);
+  }
+  .botao {
+    position: relative;
+    bottom: 22rem;
+  }
+}
+@media (min-width: 1900px) and (max-width: 2560px) {
+  .logo-header {
+    width: 80%;
+    transform: translateY(-12rem);
+  }
+  #cabecalho {
+    height: 132vh;
+  }
+  #cabecalho h1 {
+    font-size: 3rem;
+    transform: translateY(-28rem);
+  }
+  #cabecalho h3 {
+    font-size: 2rem;
+    transform: translateY(-26rem);
+  }
+  #video-vendas iframe {
+    width: 800px;
+    height: 500px;
+    transform: translateY(-25rem);
+  }
+  .botao {
+    position: relative;
+    bottom: 22rem;
+  }
+}
