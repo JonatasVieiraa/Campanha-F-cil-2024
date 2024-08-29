@@ -10,58 +10,48 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
   </head>
-
   <body>
-    <!-- Cabeçalho -->
-    <header id="cabecalho">
-      <div class="container">
-        <img class="logo-header" src="img/2024.svg" alt="logo da header" />
-        <h1>
-          A Sua Campanha no Rumo Certo Por Menos de
-          <strong>R$3,50 ao dia! 😱</strong>
-        </h1>
-        <h3>
-          Mais de 60 mil Vereadores, Prefeitos e Vices serão eleitos nesse ano.
-          E você pode ser um deles!
-        </h3>
-        <div id="video-vendas">
-          <iframe
-            width="930"
-            height="523"
-            src="https://www.youtube.com/embed/Sj1GaANG74g"
-            title="PRIMEIROS PASSOS DENTRO DO NOTION #shorts"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+    <header>
+      <div class="hero">
+        <div class="hero-content">
+          <img src="img/2024.svg" alt="Logo Campanha Fácil" class="logo" />
+          <h1 class="headline">
+            Planeje Sua Campanha com Eficiência e Garanta Seu <br> <strong>Sucesso!</strong> 
+          </h1>
+          <a href="#preco" class="button">Compre Agora</a>
+          <p class="subheadline">
+            Tudo o que você precisa para uma campanha eleitoral de sucesso, em
+            um só lugar.
+          </p>
+          <div class="video-placeholder">
+            <iframe
+              src="https://www.youtube.com/embed/Sj1GaANG74g"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
-        <a href="#preco" class="botao">Veja Como Funciona</a>
       </div>
     </header>
-
     <section id="como-funciona">
       <div class="container">
-        <h2>
-          O Guia Prático do Sucesso Eleitoral
-          <img class="map-icon" src="img/5.svg" alt="mapinha" />
-        </h2>
+        <img class="map-icon" src="img/5.svg" alt="mapinha" />
+        <h2>O Guia Prático do Sucesso Eleitoral.</h2>
         <ol>
-          <li data-step="1">
+          <li>
             Atendimento Personalizado: Responda ao Questionário Personalizado e
             receba sua Campanha de Acordo com às suas Necessidades.
           </li>
-          <li data-step="2">
+          <li>
             Acesso Exclusivo: Acesse o APP via Android ou IOS de forma Exclusiva
             e Sigilosa, diretamente no seu E-mail ou WhatsApp.
           </li>
-          <li data-step="3">
+          <li>
             Suporte 24/7: Conte com o nosso Suporte para te ajudar em Todas as
             Etapas!
           </li>
@@ -75,82 +65,38 @@
           Milhares de Candidatos já Estão Fazendo a Diferença. <br />
           Veja! 👇
         </h2>
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <!-- Primeiro item do carrossel -->
-            <div class="carousel-item active">
-              <iframe
-                width="362"
-                height="643"
-                src="https://www.youtube.com/embed/OmzK5RlOBgw"
-                title="VIDEO RONALDO CAMAPANHA FACIL 2024"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <!-- Segundo item do carrossel -->
-            <div class="carousel-item">
-              <iframe
-                width="362"
-                height="643"
-                src="https://www.youtube.com/embed/dwB5v3mkS64"
-                title="CANDIDATA LAÍS MORAES"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <!-- Terceiro item do carrossel -->
-            <div class="carousel-item">
-              <iframe
-                width="362"
-                height="643"
-                src="https://www.youtube.com/embed/mgfo1rmB-lY"
-                title="VIDEO JOBER CAMAPNHA FACIL 2024"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-            </div>
+        <div class="video-container">
+          <div>
+            <iframe
+              src="https://www.youtube.com/embed/OmzK5RlOBgw"
+              title="VIDEO RONALDO CAMAPANHA FACIL 2024"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           </div>
-          <!-- Controles de navegação do carrossel -->
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+          <div>
+            <iframe
+              src="https://www.youtube.com/embed/dwB5v3mkS64"
+              title="CANDIDATA LAÍS MORAES"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div>
+            <iframe
+              src="https://www.youtube.com/embed/mgfo1rmB-lY"
+              title="VIDEO JOBER CAMAPNHA FACIL 2024"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
-        <a href="#preco" class="botao-funcional">Tenho Interesse</a>
       </div>
     </section>
 
@@ -191,13 +137,14 @@
             <p class="cta-p">5x de</p>
             <h1 class="cta-pricing">R$32</h1>
             <p class="cta-price">ou R$ 147 à vista</p>
+            <a
+              class="cta-button"
+              target="_blank"
+              href="https://pay.kiwify.com.br/lxvK89B"
+            >
+              Comprar agora
+            </a>
           </div>
-          <a
-            target="_blank"
-            href="https://pay.kiwify.com.br/lxvK89B"
-            class="cta-button"
-            >Comprar agora</a
-          >
           <div class="cta-payment-methods">
             <img src="img/pagamentos att.svg" alt="Métodos de Pagamento" />
           </div>
