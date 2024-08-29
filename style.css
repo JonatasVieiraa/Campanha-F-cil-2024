@@ -12,7 +12,7 @@ body {
 
 .hero {
   height: 800px;
-  background-image: url(img/wallpaper\ 2.svg);
+  background-image: url(img/wallpaper.svg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -213,11 +213,13 @@ iframe {
 .cta-card {
   overflow: hidden;
 }
+
 .cta-content .title-3 {
   font-size: 30px;
   font-weight: bold;
   position: relative;
 }
+
 .benefits-list {
   list-style-type: none;
   padding: 15px;
@@ -264,7 +266,7 @@ iframe {
   color: var(--white);
   margin: 20px auto;
   height: 750px;
-  padding:30px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -312,7 +314,8 @@ iframe {
 
 .button,
 .cta-button,
-.whatsapp-icon, .button-depoimento {
+.whatsapp-icon,
+.button-depoimento {
   animation: pulsar 1.5s infinite;
 }
 
@@ -384,4 +387,504 @@ iframe {
   color: #ffffff;
   text-decoration: none;
   font-size: 0.9rem;
+}
+
+
+
+@media (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    height: 60vh;
+    background-image: url('img/wallpaper.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-content {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headline {
+    padding: 30px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .video-placeholder {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .video-placeholder iframe {
+    height: 200px;
+  }
+
+  .button {
+    padding: 15px 20px;
+    font-size: 18px;
+  }
+
+  .map-icon {
+    width: 20%;
+  }
+
+  #como-funciona {
+    padding: 20px;
+  }
+
+  #como-funciona .container h2 {
+    font-size: 24px;
+  }
+
+  #como-funciona li {
+    font-size: 1rem;
+    padding: 15px 20px;
+    width: calc(100% - 20px);
+  }
+
+  #depoimentos {
+    padding: 30px 0;
+  }
+
+  #depoimentos h2 {
+    font-size: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+  }
+
+  .button-depoimento {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  #garantia {
+    padding: 40px;
+  }
+
+  .medal-icon {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .title-1 {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  #introducao-cta {
+    padding: 30px;
+  }
+
+  #introducao-cta .container p {
+    font-size: 15px;
+    transform: translateX(-19px);
+  }
+
+  .title-2 {
+    font-size: 22px;
+    transform: translateX(-19px);
+  }
+
+  .cta-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .cta-card .title-3 {
+    font-size: 22px;
+    padding: 15px;
+  }
+
+  .benefits-list {
+    font-size: 17px;
+  }
+
+  .cta-button {
+    padding: 10px 15px;
+    font-size: 18px;
+    position: relative;
+    bottom: 6px;
+  }
+
+  .cta-payment-methods img {
+    max-width: 100%;
+    bottom: 3.3rem;
+
+  }
+
+  #contato-suporte {
+    padding: 8px;
+  }
+
+  #contato-suporte h2 {
+    font-size: 20px;
+  }
+
+  #contato-suporte p {
+    font-size: 14px;
+  }
+
+  .whatsapp-icon {
+    bottom: 2px;
+  }
+
+  #rodape a {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    height: 60vh;
+    background-image: url('img/wallpaper.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-content {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headline {
+    padding: 30px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .video-placeholder {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .video-placeholder iframe {
+    height: 200px;
+  }
+
+  .button {
+    padding: 15px 20px;
+    font-size: 18px;
+  }
+
+  .map-icon {
+    width: 20%;
+  }
+
+  #como-funciona {
+    padding: 20px;
+  }
+
+  #como-funciona .container h2 {
+    font-size: 24px;
+  }
+
+  #como-funciona li {
+    font-size: 1rem;
+    padding: 15px 20px;
+    width: calc(100% - 20px);
+  }
+
+  #depoimentos {
+    padding: 30px 0;
+  }
+
+  #depoimentos h2 {
+    font-size: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+  }
+
+  .button-depoimento {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  #garantia {
+    padding: 40px;
+  }
+
+  .medal-icon {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .title-1 {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  #introducao-cta {
+    padding: 30px;
+  }
+
+  #introducao-cta .container p {
+    font-size: 15px;
+    transform: translateX(-19px);
+  }
+
+  .title-2 {
+    font-size: 22px;
+    transform: translateX(-19px);
+  }
+
+  .cta-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .cta-card .title-3 {
+    font-size: 22px;
+    padding: 15px;
+  }
+
+  .benefits-list {
+    font-size: 17px;
+  }
+
+  .cta-button {
+    padding: 10px 15px;
+    font-size: 18px;
+    position: relative;
+    bottom: 6px;
+  }
+
+  .cta-payment-methods img {
+    max-width: 100%;
+    bottom: 3.3rem;
+
+  }
+
+  #contato-suporte {
+    padding: 8px;
+  }
+
+  #contato-suporte h2 {
+    font-size: 20px;
+  }
+
+  #contato-suporte p {
+    font-size: 14px;
+  }
+
+  .whatsapp-icon {
+    bottom: 2px;
+  }
+
+  #rodape a {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 425px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    height: 60vh;
+    background-image: url('img/wallpaper.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-content {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headline {
+    padding: 30px;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .video-placeholder {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .video-placeholder iframe {
+    height: 200px;
+  }
+
+  .button {
+    padding: 15px 20px;
+    font-size: 18px;
+  }
+
+  .map-icon {
+    width: 20%;
+  }
+
+  #como-funciona {
+    padding: 20px;
+  }
+
+  #como-funciona .container h2 {
+    font-size: 24px;
+  }
+
+  #como-funciona li {
+    font-size: 1rem;
+    padding: 15px 20px;
+    width: calc(100% - 20px);
+  }
+
+  #depoimentos {
+    padding: 30px 0;
+  }
+
+  #depoimentos h2 {
+    font-size: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+  }
+
+  .button-depoimento {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  #garantia {
+    padding: 40px;
+  }
+
+  .medal-icon {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .title-1 {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  #introducao-cta {
+    padding: 30px;
+  }
+
+  #introducao-cta .container p {
+    font-size: 15px;
+    transform: translateX(-19px);
+  }
+
+  .title-2 {
+    font-size: 22px;
+    transform: translateX(-19px);
+  }
+
+  .cta-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .cta-card .title-3 {
+    font-size: 22px;
+    padding: 15px;
+  }
+
+  .benefits-list {
+    font-size: 17px;
+  }
+
+  .cta-button {
+    padding: 10px 15px;
+    font-size: 18px;
+    position: relative;
+    bottom: 6px;
+  }
+
+  .cta-payment-methods img {
+    max-width: 100%;
+    bottom: 3.3rem;
+
+  }
+
+  #contato-suporte {
+    padding: 8px;
+  }
+
+  #contato-suporte h2 {
+    font-size: 20px;
+  }
+
+  #contato-suporte p {
+    font-size: 14px;
+  }
+
+  .whatsapp-icon {
+    bottom: 2px;
+  }
+
+  #rodape a {
+    font-size: 6px;
+  }
 }
