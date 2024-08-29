@@ -206,7 +206,7 @@ iframe {
   font-size: 30px;
   font-weight: bold;
   position: relative;
-  bottom: 15rem;
+  bottom: 10rem;
 }
 
 .benefits-list {
@@ -216,7 +216,7 @@ iframe {
   text-align: left;
   font-size: 24px;
   position: relative;
-  bottom: 16rem;
+  bottom: 10rem;
   align-items: center;
 }
 .benefits-list li {
@@ -232,20 +232,19 @@ iframe {
   color: #ffffff;
   font-size: 26px;
   position: relative;
-  bottom: 17rem; /* Remova o posicionamento bottom */
-  margin-bottom: 10px;
+  bottom: 10rem; 
 }
 .cta-pricing {
   font-size: 58px;
   color: #00ff85;
   position: relative;
-  bottom: 18rem; /* Remova o posicionamento bottom */
+  bottom: 10rem; 
 }
 .cta-price {
   color: #ffffff;
   font-size: 26px;
   position: relative;
-  bottom: 18rem;
+  bottom: 10rem;
 }
 
 .cta-card {
@@ -274,7 +273,7 @@ iframe {
   font-size: 30px;
   position: relative;
   z-index: 10;
-  bottom: 19rem;
+  bottom: 10rem;
 }
 
 .cta-button:hover {
@@ -284,7 +283,7 @@ iframe {
 .cta-payment-methods img {
   max-width: 600px;
   position: relative;
-  bottom: 28.2rem;
+  bottom: 17rem;
 }
 @keyframes pulsar {
   0% {
