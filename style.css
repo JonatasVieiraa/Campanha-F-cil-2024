@@ -389,17 +389,17 @@ iframe {
   font-size: 0.9rem;
 }
 
-
-
 @media (max-width: 320px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .hero {
-    height: 60vh;
+    max-width: 100vw;
+    height: 65vh;
     background-image: url('img/wallpaper.svg');
     display: flex;
     align-items: center;
@@ -410,134 +410,162 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
   }
 
   .hero-content {
-    max-width: 800px;
+    max-width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .headline {
-    padding: 30px;
-    font-size: 14px;
+  .hero-content .headline {
+    padding: 14px;
+    font-size: 16px;
     position: relative;
+    max-width: 100%;
   }
 
   .video-placeholder {
     max-width: 100%;
-    padding: 10px;
   }
 
-  .video-placeholder iframe {
-    height: 200px;
+  .hero-content .video-placeholder iframe {
+    height: 210px;
+    width: 100%;
   }
 
-  .button {
+  .hero-content .button {
     padding: 15px 20px;
-    font-size: 18px;
+    font-size: 16px;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
-  .map-icon {
+  #como-funciona .map-icon {
     width: 20%;
+    overflow: hidden;
   }
 
   #como-funciona {
     padding: 20px;
+    max-width: 100%;
+
   }
 
   #como-funciona .container h2 {
     font-size: 24px;
+    overflow: hidden;
   }
 
   #como-funciona li {
     font-size: 1rem;
-    padding: 15px 20px;
+    padding: 15px 10px;
     width: calc(100% - 20px);
+    box-sizing: border-box;
   }
 
   #depoimentos {
-    padding: 30px 0;
+    padding: 40px;
+    max-width: 100%;
   }
 
   #depoimentos h2 {
     font-size: 20px;
+    overflow: hidden;
   }
 
   iframe {
     width: 100%;
     height: 250px;
-    padding: 20px;
+    padding: 0;
   }
 
-  .button-depoimento {
-    padding: 15px 20px;
-    font-size: 16px;
+  #depoimentos .button-depoimento {
+    padding: 10px 20px;
+    font-size: 14px;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 4px;
   }
 
   #garantia {
-    padding: 40px;
+    padding: 30px;
+    max-width: 100%;
   }
 
-  .medal-icon {
-    width: 50%;
-    padding: 10px;
+  #garantia .medal-icon {
+    width: 60%;
+    padding-top: 22px;
+
   }
 
-  .title-1 {
-    font-size: 24px;
+  #garantia .title-1 {
+    font-size: 22px;
+    overflow: hidden;
+
   }
 
-  .paragraph {
+  #garantia .paragraph {
     font-size: 18px;
+    max-width: 100%;
   }
 
   #introducao-cta {
     padding: 30px;
-  }
+    max-width: 100%;
+    height: 100%;
 
-  #introducao-cta .container p {
-    font-size: 15px;
-    transform: translateX(-19px);
   }
 
   .title-2 {
     font-size: 22px;
-    transform: translateX(-19px);
+    overflow: hidden;
+  }
+
+  #introducao-cta,
+  .cta-card,
+  .cta-content,
+  .benefits-list,
+  .cta-pricing {
+    overflow: hidden;
   }
 
   .cta-card {
-    width: 100%;
+    height: 97vh;
     padding: 20px;
     border-radius: 20px;
+    max-width: 100%;
+
+
   }
 
-  .cta-card .title-3 {
-    font-size: 22px;
-    padding: 15px;
+  .cta-card .cta-content .title-3 {
+    font-size: 17.3px;
   }
 
-  .benefits-list {
-    font-size: 17px;
+  .cta-card .cta-content .benefits-list {
+    font-size: 15px;
+    padding: 4px;
   }
 
-  .cta-button {
+  .cta-card .cta-content .cta-button {
     padding: 10px 15px;
     font-size: 18px;
-    position: relative;
-    bottom: 6px;
+
   }
 
   .cta-payment-methods img {
     max-width: 100%;
     bottom: 3.3rem;
-
   }
 
   #contato-suporte {
     padding: 8px;
+    max-width: 100%;
   }
 
   #contato-suporte h2 {
@@ -548,8 +576,8 @@ iframe {
     font-size: 14px;
   }
 
-  .whatsapp-icon {
-    bottom: 2px;
+  .contato-card .whatsapp-icon {
+    top: 2px;
   }
 
   #rodape a {
@@ -562,10 +590,12 @@ iframe {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .hero {
-    height: 60vh;
+    max-width: 100vw;
+    height: 65vh;
     background-image: url('img/wallpaper.svg');
     display: flex;
     align-items: center;
@@ -576,134 +606,160 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
   }
 
   .hero-content {
-    max-width: 800px;
+    max-width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .headline {
-    padding: 30px;
-    font-size: 14px;
+  .hero-content .headline {
+    padding: 14px;
+    font-size: 19.5px;
     position: relative;
+    max-width: 100%;
   }
 
   .video-placeholder {
     max-width: 100%;
-    padding: 10px;
   }
 
-  .video-placeholder iframe {
-    height: 200px;
+  .hero-content .video-placeholder iframe {
+    height: 210px;
+    width: 100%;
   }
 
-  .button {
+  .hero-content .button {
     padding: 15px 20px;
-    font-size: 18px;
+    font-size: 16px;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
-  .map-icon {
+  #como-funciona .map-icon {
     width: 20%;
+    overflow: hidden;
   }
 
   #como-funciona {
     padding: 20px;
+    max-width: 100%;
+
   }
 
   #como-funciona .container h2 {
     font-size: 24px;
+    overflow: hidden;
   }
 
   #como-funciona li {
     font-size: 1rem;
-    padding: 15px 20px;
+    padding: 15px 10px;
     width: calc(100% - 20px);
+    box-sizing: border-box;
   }
 
   #depoimentos {
-    padding: 30px 0;
+    padding: 40px;
+    max-width: 100%;
   }
 
   #depoimentos h2 {
     font-size: 20px;
+    overflow: hidden;
   }
 
   iframe {
     width: 100%;
     height: 250px;
-    padding: 20px;
+    padding: 0;
   }
 
-  .button-depoimento {
-    padding: 15px 20px;
-    font-size: 16px;
+  #depoimentos .button-depoimento {
+    padding: 10px 20px;
+    font-size: 14px;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 4px;
   }
 
   #garantia {
-    padding: 40px;
+    padding: 30px;
+    max-width: 100%;
   }
 
-  .medal-icon {
-    width: 50%;
-    padding: 10px;
+  #garantia .medal-icon {
+    width: 60%;
+    padding-top: 22px;
+
   }
 
-  .title-1 {
-    font-size: 24px;
+  #garantia .title-1 {
+    font-size: 22px;
+    overflow: hidden;
+
   }
 
-  .paragraph {
+  #garantia .paragraph {
     font-size: 18px;
+    max-width: 100%;
   }
 
   #introducao-cta {
     padding: 30px;
+    max-width: 100%;
+    height: 100%;
+
   }
 
-  #introducao-cta .container p {
-    font-size: 15px;
-    transform: translateX(-19px);
+  #introducao-cta .title-2 {
+    font-size: 24px;
+    overflow: hidden;
   }
 
-  .title-2 {
-    font-size: 22px;
-    transform: translateX(-19px);
+  #introducao-cta,
+  .cta-card,
+  .cta-content,
+  .benefits-list,
+  .cta-pricing {
+    overflow: hidden;
   }
 
   .cta-card {
-    width: 100%;
-    padding: 20px;
+    height: 100vh;
+    padding: 40px;
     border-radius: 20px;
+    max-width: 100%;
   }
 
-  .cta-card .title-3 {
-    font-size: 22px;
-    padding: 15px;
+  .cta-card .cta-content .title-3 {
+    font-size: 22.3px;
   }
 
-  .benefits-list {
-    font-size: 17px;
+  .cta-card .cta-content .benefits-list {
+    font-size: 18px;
+    padding: 4px;
   }
 
-  .cta-button {
+  .cta-card .cta-content .cta-button {
     padding: 10px 15px;
     font-size: 18px;
-    position: relative;
-    bottom: 6px;
+
   }
 
   .cta-payment-methods img {
     max-width: 100%;
     bottom: 3.3rem;
-
   }
 
   #contato-suporte {
     padding: 8px;
+    max-width: 100%;
   }
 
   #contato-suporte h2 {
@@ -714,8 +770,8 @@ iframe {
     font-size: 14px;
   }
 
-  .whatsapp-icon {
-    bottom: 2px;
+  .contato-card .whatsapp-icon {
+    top: 2px;
   }
 
   #rodape a {
@@ -728,10 +784,12 @@ iframe {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
   }
 
   .hero {
-    height: 60vh;
+    max-width: 100vw;
+    height: 65vh;
     background-image: url('img/wallpaper.svg');
     display: flex;
     align-items: center;
@@ -742,134 +800,170 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
   }
 
   .hero-content {
-    max-width: 800px;
+    max-width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .headline {
-    padding: 30px;
-    font-size: 14px;
+  .hero-content .headline {
+    padding: 14px;
+    font-size: 19.5px;
     position: relative;
+    max-width: 100%;
   }
 
   .video-placeholder {
     max-width: 100%;
-    padding: 10px;
   }
 
-  .video-placeholder iframe {
-    height: 200px;
+  .hero-content .video-placeholder iframe {
+    height: 210px;
+    width: 100%;
   }
 
-  .button {
+  .hero-content .button {
     padding: 15px 20px;
-    font-size: 18px;
+    font-size: 16px;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 
-  .map-icon {
+  #como-funciona .map-icon {
     width: 20%;
+    overflow: hidden;
   }
 
   #como-funciona {
-    padding: 20px;
+    padding: 26px;
+    max-width: 100%;
+
   }
 
   #como-funciona .container h2 {
     font-size: 24px;
+    overflow: hidden;
   }
 
   #como-funciona li {
     font-size: 1rem;
-    padding: 15px 20px;
+    padding: 15px 10px;
     width: calc(100% - 20px);
+    box-sizing: border-box;
   }
 
   #depoimentos {
-    padding: 30px 0;
+    padding: 40px;
+    max-width: 100%;
   }
 
   #depoimentos h2 {
     font-size: 20px;
+    overflow: hidden;
   }
 
   iframe {
     width: 100%;
     height: 250px;
-    padding: 20px;
+    padding: 0;
   }
 
-  .button-depoimento {
-    padding: 15px 20px;
-    font-size: 16px;
+  #depoimentos .button-depoimento {
+    padding: 10px 20px;
+    font-size: 14px;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 4px;
   }
 
   #garantia {
-    padding: 40px;
+    padding: 30px;
+    max-width: 100%;
   }
 
-  .medal-icon {
+  #garantia .medal-icon {
     width: 50%;
-    padding: 10px;
+    padding-top: 22px;
+
   }
 
-  .title-1 {
-    font-size: 24px;
+  #garantia .title-1 {
+    font-size: 22px;
+    overflow: hidden;
+
   }
 
-  .paragraph {
+  #garantia .paragraph {
     font-size: 18px;
+    max-width: 100%;
   }
 
   #introducao-cta {
     padding: 30px;
+    max-width: 100%;
+    height: 100%;
+
+  }
+
+  #introducao-cta .title-2 {
+    font-size: 26px;
+    overflow: hidden;
+    position: relative;
+    right: 24px;
   }
 
   #introducao-cta .container p {
-    font-size: 15px;
-    transform: translateX(-19px);
+    font-size: 18px;
+    overflow: hidden;
+    position: relative;
+    right: 22px;
   }
 
-  .title-2 {
-    font-size: 22px;
-    transform: translateX(-19px);
+  #introducao-cta,
+  .cta-card,
+  .cta-content,
+  .benefits-list,
+  .cta-pricing {
+    overflow: hidden;
   }
 
   .cta-card {
-    width: 100%;
-    padding: 20px;
+    height: 100vh;
+    padding: 40px;
     border-radius: 20px;
+    max-width: 100%;
   }
 
-  .cta-card .title-3 {
-    font-size: 22px;
-    padding: 15px;
+  .cta-card .cta-content .title-3 {
+    font-size: 25px;
+    overflow: hidden;
   }
 
-  .benefits-list {
-    font-size: 17px;
+  .cta-card .cta-content .benefits-list {
+    font-size: 18px;
+    padding: 4px;
   }
 
-  .cta-button {
+  .cta-card .cta-content .cta-button {
     padding: 10px 15px;
     font-size: 18px;
-    position: relative;
-    bottom: 6px;
+
   }
 
   .cta-payment-methods img {
     max-width: 100%;
     bottom: 3.3rem;
-
   }
 
   #contato-suporte {
     padding: 8px;
+    max-width: 100%;
   }
 
   #contato-suporte h2 {
@@ -880,11 +974,12 @@ iframe {
     font-size: 14px;
   }
 
-  .whatsapp-icon {
-    bottom: 2px;
+  .contato-card .whatsapp-icon {
+    top: 2px;
   }
 
   #rodape a {
     font-size: 6px;
   }
 }
+
