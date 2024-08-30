@@ -261,9 +261,8 @@ iframe {
   background-color: #043044;
   border-radius: 50px;
   width: 600px;
-  height: auto;
   text-align: center;
-  color: var(--white);
+  color: #ffffff;
   margin: 20px auto;
   height: 750px;
   padding: 30px;
@@ -955,6 +954,209 @@ iframe {
     padding: 30px;
     border-radius: 20px;
     max-width: 100%;
+  }
+
+  .cta-card .cta-content .title-3 {
+    font-size: 22px;
+    overflow: hidden;
+  }
+
+  .cta-card .cta-content .benefits-list {
+    font-size: 15px;
+    padding: 4px;
+  }
+
+  .cta-card .cta-content .cta-button {
+    padding: 10px 15px;
+    font-size: 18px;
+
+  }
+
+  .cta-payment-methods img {
+    max-width: 100%;
+    bottom: 3.3rem;
+  }
+
+  #contato-suporte {
+    padding: 8px;
+    max-width: 100%;
+  }
+
+  #contato-suporte h2 {
+    font-size: 20px;
+  }
+
+  #contato-suporte p {
+    font-size: 14px;
+  }
+
+  .contato-card .whatsapp-icon {
+    top: 2px;
+  }
+
+  #rodape a {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 431px) and (max-width:560px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .hero {
+    max-width: 100vw;
+    height: 65vh;
+    background-image: url('img/wallpaper.svg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content .headline {
+    padding: 14px;
+    font-size: 19.5px;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .video-placeholder {
+    max-width: 100%;
+  }
+
+  .hero-content .video-placeholder iframe {
+    height: 210px;
+    width: 100%;
+  }
+
+  .hero-content .button {
+    padding: 15px 20px;
+    font-size: 16px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  #como-funciona .map-icon {
+    width: 20%;
+    overflow: hidden;
+  }
+
+  #como-funciona {
+    padding: 20px;
+    max-width: 100%;
+
+  }
+
+  #como-funciona .container h2 {
+    font-size: 24px;
+    overflow: hidden;
+  }
+
+  #como-funciona li {
+    font-size: 1rem;
+    padding: 15px 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+  }
+
+  #depoimentos {
+    padding: 40px;
+    max-width: 100%;
+  }
+
+  #depoimentos h2 {
+    font-size: 20px;
+    overflow: hidden;
+  }
+
+  iframe {
+    width: 100%;
+    height: 150px;
+    padding: 0;
+  }
+
+  #depoimentos .button-depoimento {
+    padding: 10px 20px;
+    font-size: 14px;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top: 4px;
+  }
+
+  #garantia {
+    padding: 30px;
+    max-width: 100%;
+  }
+
+  #garantia .medal-icon {
+    width: 40%;
+    padding-top: 22px;
+
+  }
+
+  #garantia .title-1 {
+    font-size: 28px;
+    overflow: hidden;
+
+  }
+
+  #garantia .paragraph {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  #introducao-cta {
+    padding: 30px;
+    height: 100%;
+
+  }
+
+  #introducao-cta .title-2 {
+    font-size: 24px;
+    overflow: hidden;
+    position: relative;
+    right: 20px;
+
+  }
+
+  #introducao-cta .container p {
+    position: relative;
+    right: 20px;
+    font-size: 18px;
+  }
+
+  #introducao-cta,
+  .cta-card,
+  .cta-content,
+  .benefits-list,
+  .cta-pricing {
+    overflow: hidden;
+  }
+
+  .cta-card {
+    height: 92vh;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 80%;
   }
 
   .cta-card .cta-content .title-3 {
