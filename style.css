@@ -858,7 +858,7 @@ iframe {
   }
 
   #como-funciona {
-    padding: 26px;
+    padding: 20px;
     max-width: 100%;
 
   }
@@ -887,7 +887,7 @@ iframe {
 
   iframe {
     width: 100%;
-    height: 250px;
+    height: 150px;
     padding: 0;
   }
 
@@ -912,7 +912,7 @@ iframe {
   }
 
   #garantia .title-1 {
-    font-size: 22px;
+    font-size: 28px;
     overflow: hidden;
 
   }
@@ -924,23 +924,22 @@ iframe {
 
   #introducao-cta {
     padding: 30px;
-    max-width: 100%;
     height: 100%;
 
   }
 
   #introducao-cta .title-2 {
-    font-size: 26px;
+    font-size: 24px;
     overflow: hidden;
     position: relative;
-    right: 24px;
+    right: 20px;
+
   }
 
   #introducao-cta .container p {
-    font-size: 18px;
-    overflow: hidden;
     position: relative;
-    right: 22px;
+    right: 20px;
+    font-size: 18px;
   }
 
   #introducao-cta,
@@ -952,19 +951,19 @@ iframe {
   }
 
   .cta-card {
-    height: 100vh;
-    padding: 40px;
+    height: 90vh;
+    padding: 30px;
     border-radius: 20px;
     max-width: 100%;
   }
 
   .cta-card .cta-content .title-3 {
-    font-size: 25px;
+    font-size: 22px;
     overflow: hidden;
   }
 
   .cta-card .cta-content .benefits-list {
-    font-size: 18px;
+    font-size: 15px;
     padding: 4px;
   }
 
