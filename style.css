@@ -203,60 +203,57 @@ iframe {
 }
 
 .logo-campanha {
-  width: 40%;
+  width: 100%;
   padding: 0;
   margin: 0;
-  position: absolute;
-  right: 30%;
-  top: 160rem;
-  z-index: 10;
+  position: relative;
+  bottom: 8rem;
 }
 
 .cta-content .title-3 {
   font-size: 48px;
   font-weight: bold;
   position: relative;
-  top: 12rem;
+  bottom: 18rem;
 }
 
 .benefits-list {
   list-style-type: none;
   text-align: left;
-  font-size: 28px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 34px;
+  padding: 14px;
 }
 
 .benefits-list li {
   display: flex;
   position: relative;
-  top: 14rem;
+  bottom: 14rem;
 }
 
 .benefits-list li::before {
-  content: "✔️";
-  margin-right: 8px;
+  content: "✅";
+  margin-right: 10px;
 }
 
 .cta-p {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 38px;
   position: relative;
-  top: 16rem;
+  bottom: 10rem;
 }
 
 .cta-pricing {
   font-size: 70px;
   color: #00ff85;
   position: relative;
-  top: 16rem;
+  bottom: 12rem;
 }
 
 .cta-price {
   color: #ffffff;
   font-size: 30px;
   position: relative;
-  top: 16rem;
+  bottom: 12rem;
 
 }
 
@@ -282,22 +279,16 @@ iframe {
   text-decoration: none;
   transition: background-color 0.3s;
   padding: 15px 25px;
-  font-size: 44px;
+  font-size: 60px;
   font-weight: bold;
   position: relative;
   text-align: center;
-  top: 18rem;
+  bottom: 8rem;
 }
 
 .cta-button:hover {
   text-decoration: none;
   color: #ffffff;
-}
-
-.cta-payment-methods img {
-  max-width: 600px;
-  position: relative;
-  top: 11rem;
 }
 
 @keyframes pulsar {
@@ -554,16 +545,17 @@ iframe {
   .cta-card .cta-content .benefits-list {
     margin: 0;
     padding: 0;
-    font-size: 10px;
+    font-size: 13px;
     position: relative;
-    bottom: 11rem;
+    top: 17rem;
+    
   }
 
   .cta-p {
     font-size: 14px;
     overflow: hidden;
     position: relative;
-    top: 2rem;
+    top: 3rem;
 
   }
 
@@ -571,7 +563,7 @@ iframe {
     font-size: 32px;
     overflow: hidden;
     position: relative;
-    top: 1rem;
+    top: 2rem;
   }
 
 
@@ -579,25 +571,16 @@ iframe {
     font-size: 14px;
     overflow: hidden;
     position: relative;
-    top: 1rem;
+    top: 1.5rem;
 
   }
 
   .cta-card .cta-content .cta-button {
     padding: 10px 15px;
-    font-size: 10px;
+    font-size: 18px;
     position: relative;
     overflow: hidden;
-    top: 0.2rem;
-  }
-
-  .cta-payment-methods img {
-    max-width: 100%;
-    position: absolute;
-    overflow: hidden;
-    left: 0.2rem;
-    top: 127.7rem;
-
+    top: 1rem;
   }
 
   #contato-suporte {
@@ -763,11 +746,8 @@ iframe {
   }
 
   #introducao-cta .logo-campanha {
-    width: 50%;
-    z-index: 10;
-    position: absolute;
-    top: 104rem;
-    left: 5rem;
+    width: 0%;
+   
   }
 
   .cta-card {
@@ -778,27 +758,28 @@ iframe {
   }
 
   .cta-card .cta-content .title-3 {
-    font-size: 18px;
+    font-size: 20px;
     position: relative;
     overflow: hidden;
     position: relative;
-    top: 2.4rem;
+    top: 1rem;
 
   }
 
   .cta-card .cta-content .benefits-list {
     margin: 0;
     padding: 0;
-    font-size: 12px;
+    font-size: 16px;
     position: relative;
-    bottom: 12rem;
+    top: 16rem;
+    
   }
 
   .cta-p {
     font-size: 14px;
     overflow: hidden;
     position: relative;
-    top: 2rem;
+    top: 3rem;
 
   }
 
@@ -806,7 +787,7 @@ iframe {
     font-size: 32px;
     overflow: hidden;
     position: relative;
-    top: 1rem;
+    top: 2rem;
   }
 
 
@@ -814,7 +795,7 @@ iframe {
     font-size: 14px;
     overflow: hidden;
     position: relative;
-    top: 1rem;
+    top: 2rem;
 
   }
 
@@ -823,16 +804,7 @@ iframe {
     font-size: 18px;
     position: relative;
     overflow: hidden;
-    top: 0.2rem;
-  }
-
-  .cta-payment-methods img {
-    max-width: 100%;
-    position: absolute;
-    overflow: hidden;
-    left: 0.2rem;
-    top: 122rem;
-
+    top: 1rem;
   }
 
   #contato-suporte {
@@ -998,13 +970,9 @@ iframe {
   }
 
   #introducao-cta .logo-campanha {
-    width: 50%;
-    z-index: 10;
-    position: absolute;
-    top: 134rem;
-    left: 6rem;
+    width: 0%;
+  
   }
-
   .cta-card {
     padding: 20px;
     border-radius: 20px;
@@ -1013,20 +981,20 @@ iframe {
   }
 
   .cta-card .cta-content .title-3 {
-    font-size: 28px;
+    font-size: 30px;
     position: relative;
     overflow: hidden;
     position: relative;
-    top: 3rem;
+    top: 1rem;
 
   }
 
   .cta-card .cta-content .benefits-list {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 20px;
     position: relative;
-    bottom: 11rem;
+    top: 16rem;
   }
 
   .cta-p {
@@ -1038,7 +1006,7 @@ iframe {
   }
 
   .cta-pricing {
-    font-size: 42px;
+    font-size: 48px;
     overflow: hidden;
     position: relative;
     top: 2rem;
@@ -1055,10 +1023,10 @@ iframe {
 
   .cta-card .cta-content .cta-button {
     padding: 20px 25px;
-    font-size: 26px;
+    font-size: 30px;
     position: relative;
     overflow: hidden;
-    top: 0.2rem;
+    top: 1rem;
   }
 
   .cta-payment-methods img {
@@ -1066,7 +1034,7 @@ iframe {
     position: absolute;
     overflow: hidden;
     left: 0.2rem;
-    top: 160rem;
+    top: 1rem;
 
   }
 
@@ -1233,11 +1201,8 @@ iframe {
   }
 
   #introducao-cta .logo-campanha {
-    width: 40%;
-    z-index: 10;
-    position: absolute;
-    top: 119rem;
-    left: 10rem;
+    width: 0%;
+  
   }
 
   .cta-card {
@@ -1326,8 +1291,9 @@ iframe {
     font-size: 8px;
   }
 }
+
 @media (max-width: 770px) {
-  .logo-campanha{
+  .logo-campanha {
     top: 180rem;
   }
 }
