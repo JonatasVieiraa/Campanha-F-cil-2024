@@ -22,7 +22,7 @@ Landing page desenvolvida para auxiliar candidatos com a promoção de produtos 
 
 - **index.html**: Modelo da estrutura da página.
 - **styles.css**: Folha de estilos para personalização.
-- **script.js** (se tiver): Inclui funcionalidades adicionais ou interações.
+- **script.js** : Inclui funcionalidades adicionais ou interações.
 
 ## Contato
 
